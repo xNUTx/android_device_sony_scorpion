@@ -19,4 +19,5 @@ include device/sony/scorpion_windy/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := SGP621,SGP641,SGP651,scorpion
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_scorpion_defconfig
+# TARGET_KERNEL_CONFIG := cm_shinano_scorpion_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/scorpion/kernel
